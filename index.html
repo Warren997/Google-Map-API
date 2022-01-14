@@ -15,12 +15,40 @@
 </head>
 
 <body>
-    AIzaSyCK2N_26XrDk01RFVuv97uURQVEGpoTfKA
 
+    <div id="floating-panel">
+        <!-- Origin -->
+        <div>
+            <div>
+                <input type="text" id="from" placeholder="Origin">
+            </div>
+        </div>
+
+        <!-- Destination -->
+        <div>
+            <div>
+                <input type="text" id="from" placeholder="Destination">
+            </div>
+        </div>
+
+        <!-- Mode of Travel -->
+        <b>Mode of Travel</b>
+        <select id="mode">
+            <option value="DRIVING">Driving</option>
+            <option value="WALKING">Walking</option>
+            <option value="BICYCLING">Bicycling</option>
+            <option value="TRANSIT">Transit</option>
+        </select>
+
+    </div>
+
+
+    <!-- Map -->
+    <div id="map"></div>
 
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries-&v=weekly" async></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK2N_26XrDk01RFVuv97uURQVEGpoTfKA&callback=initMap&libraries-&v=weekly" async></script>
 
 </body>
 
